@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co/R7dYLdN/development-4536630-1280.png",
+      "title": "Introduction to Web Development",
+      "description": "Learn the fundamentals of web development and build your first website.",
+      "price": 49.99,
+      "credit_hour": 3
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co/g7G2bJj/pexels-kevin-ku-577585.jpg",
+      "title": "Python Programming Masterclass",
+      "description": "Become a Python expert with this comprehensive programming course.",
+      "price": 59.99,
+      "credit_hour": 4
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co/C1HJc94/pixel-cells-3947912-1280.png",
+      "title": "Introduction to Robotics",
+      "description": "Dive into the world of Robotics & machine learning with hands-on projects.",
+      "price": 69.99,
+      "credit_hour": 5
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co/QKXz69B/online-advertising-6693945-1920.png",
+      "title": "Digital Marketing Strategies",
+      "description": "Learn the latest digital marketing techniques to grow your business.",
+      "price": 49.99,
+      "credit_hour": 2
+    },
+    {
+      "id": 5,
+      "cover": "https://i.ibb.co/zNcdqzM/emily-bernal-v9v-II5g-V8-Lw-unsplash.jpg",
+      "title": "Graphic Design Fundamentals",
+      "description": "Master the art of graphic design and create stunning visuals.",
+      "price": 39.99,
+      "credit_hour": 1
+    },
+    {
+      "id": 6,
+      "cover": "https://i.ibb.co/hHmSs8M/alexander-mils-l-CPh-Gxs7pww-unsplash.jpg",
+      "title": "Financial Management for Beginners",
+      "description": "Take control of your finances and plan for a secure future.",
+      "price": 44.99,
+      "credit_hour": 4
+    },
+    {
+      "id": 7,
+      "cover": "https://i.ibb.co/GtqHvxw/jeff-hopper-i-Ct-JF-A5hvs-unsplash.jpg",
+      "title": "Photography Essentials",
+      "description": "Capture breathtaking photos with this photography course.",
+      "price": 54.99,
+      "credit_hour": 3
+    },
+    {
+      "id": 8,
+      "cover": "https://i.ibb.co/JC2fmQk/andrea-de-santis-zwd435-ewb4-unsplash.jpg",
+      "title": "Artificial Intelligence and Robotics",
+      "description": "Explore AI and robotics technologies and their real-world applications.",
+      "price": 79.99,
+      "credit_hour": 5
+    },
+    {
+      "id": 9,
+      "cover": "https://i.ibb.co/jLNFBsr/mimi-thian-sl-WBj-TGh-REQ-unsplash.jpg",
+      "title": "Effective Communication Skills",
+      "description": "Enhance your communication skills for personal and professional success.",
+      "price": 34.99,
+      "credit_hour": 1
+    }
+  ]
+  
