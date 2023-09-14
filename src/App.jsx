@@ -1,10 +1,16 @@
 import { FiDollarSign,FiBookOpen } from "react-icons/fi";
 import { useEffect, useState } from 'react'
 import './App.css'
+import Cart from "./Components/Cart/Cart";
 
 function App() { 
 
   const [courses,setCourse] = useState([])
+  const [newCourse,setNewCourse] = useState([])
+  const [totalHour,setTotalHour] = useState([])
+  const [remainingHour,setRemainingHour] = useState([])
+  const [totalAmount,setTotalAmount] = useState([])
+  
 
   useEffect(()=>{
     fetch('Data.json')
@@ -12,6 +18,20 @@ function App() {
     .then(data => setCourse(data))
   },[])
   
+ 
+  const handleNewCart = (course) => {
+    let hour = course.credit_hour;
+    let total = course.price;
+   newCourse.forEach(course=>{
+    hour= hour+course.credit_hour;
+    total = total + course.price;
+   })
+   const remaining = 20-hour;
+   setRemainingHour(remaining)
+   setTotalHour(hour)
+   setTotalAmount(total)
+    setNewCourse([...newCourse,course])
+  }
 
   return (
     <>
@@ -36,14 +56,16 @@ function App() {
            <p className="pl-3" >Credit: {course.credit_hour}hr </p>
            </div>
           </div>
-          <button className='btn bg-blue-500 text-white w-full ' >Select</button>
+          <button onClick={()=>handleNewCart(course)} className='btn bg-blue-500 text-white w-full ' >Select</button>
         </div>
         ))
        }
       </div>
       {/* Cart Section */}
-      <div>
-          <h1>This is Cart</h1>
+      <div >
+        {
+          newCourse.map((course,idx)=><Cart key={idx} totalAmount={totalAmount}  remainingHour={remainingHour}  totalHour={totalHour}  course = {course} ></Cart>)
+        }
       </div>
       </div>
      
