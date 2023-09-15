@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
 
-const Cart = ({course}) => {
+const Cart = ({course,idx}) => {
     
     return (
         <div>
            
-             <ol  className='pb-3' >
-                <li>{course.title}</li>
+             <ol className='pb-3 ' >
+                <li> {idx+1} . {course.title}</li>
              </ol>
              
             
@@ -16,6 +16,7 @@ const Cart = ({course}) => {
 
 Cart.propTypes = {
     course: PropTypes.object.isRequired,
+    idx : PropTypes.number.isRequired
    
 }
 

@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "cover": "https://i.ibb.co/R7dYLdN/development-4536630-1280.png",
+      "cover": "https://i.ibb.co/dpFgxXT/term1.png",
       "title": "Introduction to Web Development",
       "description": "Learn the fundamentals of web development and build your first website. This course covers HTML, CSS, and JavaScript.",
       "price": 12499,
@@ -17,7 +17,7 @@
     },
     {
       "id": 3,
-      "cover": "https://i.ibb.co/C1HJc94/pixel-cells-3947912-1280.png",
+      "cover": "https://i.ibb.co/cvNwf95/0-B1n-MAW5-C3-S-W0a8.jpg",
       "title": "Introduction to Robotics",
       "description": "Dive into the world of Robotics & machine learning with hands-on projects.Learn Python and deep learning.",
       "price": 16699,
