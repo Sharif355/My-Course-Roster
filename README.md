@@ -22,6 +22,6 @@
 
 ### `useEffect` Hook
 
--**Fetching Data**: I use `useEffect` hook to fetch data from my custom API/ JSON File, that includes cover image, course title, price, credit/hour etc data.
+- **Fetching Data**: I use `useEffect` hook to fetch data from my custom API/ JSON File, that includes cover image, course title, price, credit/hour etc data.
 
--**Set Data**: I also used `useEffect` to set data to set_Function which is relevant to a`useState`.
+- **Set Data**: I also used `useEffect` to set data to set_Function which is relevant to a`useState`.
