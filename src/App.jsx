@@ -63,13 +63,13 @@ function App() {
     </div>
       
       <h1 className='text-3xl text-center font-bold my-10 ' >Course Registration</h1>
-      <div className="flex flex-col md:flex-row lg:flex-row justify-center gap-5  container  mx-auto  " >
+      <div className="flex flex-col md:flex-col lg:flex-row justify-center gap-5  container  mx-auto  " >
         {/* Card Section */}
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-center  ' >
        {
         courses.map(course =>(
           // Card
-          <div key={course.id} className='w-96 p-5 bg-gray-100    rounded-lg shadow-lg space-y-2    ' >
+          <div key={course.id} className=' w-96 p-5 bg-gray-100    rounded-lg shadow-lg space-y-2    ' >
           <img className='w-96 h-80 pb-5 '  src={course.cover} alt="" />
           <h3 className='font-bold text-lg ' >{course.title}</h3>
           <p className="text-[#1c1b1b99]" >{course.description}</p>
@@ -90,7 +90,7 @@ function App() {
        }
       </div>
       {/* Cart Section */}
-      <div className=' rounded-lg p-5 shadow-lg h-96 bg-gray-100  ' >
+      <div className=' rounded-lg p-5 shadow-lg h-[450px] bg-gray-100  ' >
       <h1 className='text-blue-500 font-medium pb-3' >Credit Hour Remaining {remainingHour}hr </h1>
             <hr />
              <h1 className='font-bold py-3' >Course Name</h1>
